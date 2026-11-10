@@ -1,0 +1,12 @@
+html{scrollbar-gutter:stable}
+.topbar{position:sticky;top:0;z-index:30;min-height:86px;padding:22px 3.5vw 16px;display:flex;align-items:center;justify-content:space-between;gap:30px;background:rgba(8,8,8,.96);backdrop-filter:blur(12px)}
+.topbar .brand{text-decoration:none;font:850 16px Arial,Helvetica,sans-serif;letter-spacing:-.04em;color:#ffe600;flex-shrink:0;max-width:none;line-height:1.2}
+.topbar .brand .brand-account{display:inline;color:#fff;font:inherit;letter-spacing:inherit;margin:0}
+.topbar nav{display:flex;gap:22px;align-items:center;justify-content:flex-end;flex-wrap:wrap;max-width:none}
+.topbar nav a{font:650 10px Arial,Helvetica,sans-serif;text-transform:uppercase;letter-spacing:.08em;text-decoration:none;color:#c2c1b6;padding:10px 0}
+.topbar nav a:hover,.topbar nav a[aria-current="page"]{color:#ffe600}
+.topbar nav .download{background:#ffe600;color:#000;border-radius:99px;padding:12px 18px}
+.topbar nav .download:hover{background:#fff46a;color:#000}
+@media(max-width:1000px){.topbar{gap:18px}.topbar nav{gap:13px}.topbar nav a{font-size:9px}.topbar .brand{font-size:14px}}
+@media(max-width:760px){.topbar{align-items:flex-start;padding:18px 20px;flex-wrap:wrap;gap:12px}.topbar .brand{font-size:15px}.topbar nav{gap:8px 13px;margin-left:auto;max-width:none}.topbar nav a{padding:5px 0;font-size:9px}.topbar nav .download{padding:8px 10px}}
+@media print{.topbar{display:none}}

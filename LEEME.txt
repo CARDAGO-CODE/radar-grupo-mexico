@@ -1,0 +1,9 @@
+RADAR DE OPORTUNIDADES, GRUPO MÉXICO
+
+1. Descomprime el ZIP completo.
+2. Abre la carpeta Radar_Grupo_Mexico.
+3. Abre index.html en Edge, Chrome o Safari.
+
+Conserva los archivos dentro de la carpeta para mantener la navegación, fotos y descarga. Las 16 propuestas comerciales editables se encuentran en propuestas/ y se descargan desde el detalle de cada oportunidad. Son borradores para revisión del socio, con honorarios y tiempos por acordar.
+
+El Excel actualizado se llama Radar_Grupo_Mexico_Completo.xlsx y tiene ocho pestañas. Incluye 16 oportunidades y un piso comercial de más de US$7.75M. Si Excel está configurado en cálculo manual, pulsa F9 al cambiar los selectores o activa Fórmulas > Opciones de cálculo > Automático.
