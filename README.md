@@ -11,7 +11,6 @@ Descarga o clona el repositorio y abre `index.html` en Chrome, Edge o Safari. Co
 - `index.html`: agenda comercial y entrada al sitio.
 - `Oportunidades_Grupo_Mexico.html`: detalle de oportunidades.
 - `Potencial_Comercial_Grupo_Mexico.html`: potencial comercial.
-- `Rutas_Comerciales_Grupo_Mexico.html`: rutas comerciales.
 - `Plan_30_Dias_Grupo_Mexico.html`: plan de trabajo.
 - `imagenes/`: fotografías utilizadas en el sitio.
 - `propuestas/`: 16 propuestas comerciales editables en PowerPoint.
