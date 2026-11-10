@@ -8,14 +8,77 @@
 </style><style id="yellow-theme">
 :root{--ink:#f3f2eb;--muted:#aaa99f;--paper:#080808;--white:#101010;--line:#303029;--yellow:#ffe600}html{background:#080808}body{background:#080808;color:var(--ink);font-family:Arial,Helvetica,sans-serif}.wrap{max-width:none;padding:0 3.5vw}.masthead{background:transparent;padding:36px 0 24px}.masthead .eyebrow{color:var(--yellow)}h1{font-family:Arial,Helvetica,sans-serif;font-size:clamp(36px,4.5vw,76px);font-weight:850;letter-spacing:-.065em;line-height:.99;max-width:1000px}.masthead .lead{color:#aead9f}.nav{background:#080808e8;border-color:#303029;backdrop-filter:blur(16px)}.nav .wrap{justify-content:flex-end;gap:24px;min-height:64px}.nav a{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#aaa99f}.nav a[aria-current="page"]{color:var(--yellow);border-color:var(--yellow)}.nav a:hover{color:var(--yellow)}.route,.opportunity,.record,.phase,.decision{background:#11110f;border-color:#303029;border-radius:0}.action{background:#1c1c16;color:#ecebdc}.meeting{background:#1a1a11;color:var(--ink);border:1px solid #363524;border-radius:0}.route-number{border-color:var(--yellow);color:var(--yellow)}.routes .route:last-child{grid-column:auto}.routes .route:last-child dl{display:block}.criterion{border-color:#454538}.field.note{background:#262310;color:#f0ebc9}.scope-badge{border-color:#424236;color:#c9c8bc}.print{border-radius:99px;padding:11px 18px}.cta{background:#181810;border:1px solid #4c4924;border-radius:0}.cta a{border-radius:99px}.filters input,.filters select{background:#10100f;border-color:#414137;color:var(--ink)}.back{color:#c1c0b4}.stat{border-color:var(--yellow)}.foot{color:#aaa99f;border-color:#303029}.foot a:hover{color:var(--yellow)}.radar-label,.radar-count{fill:#e6e5dc!important}.radar-tick{fill:#8c8c7c!important}.radar-chart .active-label,.radar-chart .active-label tspan{fill:var(--yellow)!important}.match{background:#10100e;border:1px solid #34342c;border-radius:0}.match:hover{border-color:#79732b}.match[open]{border-color:#e3cd00}.match h3{color:#f0efe6}.match .more{color:var(--yellow)}.selected-heading h2{color:var(--yellow)}.radar-layout .empty{background:#10100d;border-color:#303029;color:#cecec0}.opportunity:target{outline-color:var(--yellow)}.source a{color:#d5d4c7}
 @media print{body,html{background:white;color:#222}.nav{display:none}.masthead{color:#222}.masthead .eyebrow{color:#222}.masthead .lead{color:#555}.route,.phase,.opportunity,.record,.match,.decision{background:white;color:#222;border-color:#bbb}.route h3,.match h3,.selected-heading h2{color:#222}.action,.meeting{background:#f5f5ed;color:#222}.match .meta,.legend,.foot,.kicker{color:#555}}
-</style><link rel="stylesheet" href="navegacion.css"></head><body><header class="topbar"><a class="brand" href="index.html">Radar de oportunidades, <span class="brand-account">Grupo México</span></a><nav aria-label="Navegación principal"><a href="index.html">Radar</a><a href="Oportunidades_Grupo_Mexico.html">Oportunidades</a><a href="Potencial_Comercial_Grupo_Mexico.html">Potencial comercial</a><a href="Plan_30_Dias_Grupo_Mexico.html" aria-current="page">Plan de 30 días</a><a class="download" href="Radar_Grupo_Mexico_Completo.xlsx" download>Descargar Excel ↓</a></nav></header>
-<header class="masthead"><div class="wrap"><h1>Convertir las oportunidades en un plan a 30 días</h1><p class="lead">Un recorrido para seleccionar oportunidades, validar necesidades y acordar el siguiente paso comercial.</p></div></header>
-<main class="wrap"><a class="back" href="Oportunidades_Grupo_Mexico.html">← Volver a las oportunidades</a><section id="plan"><p class="kicker">A partir de la aprobación del socio</p>
-<div class="timeline">
-<article class="phase"><span class="days">Días 1–5</span><h3>Seleccionar y depurar</h3><p>Socio de cuenta y socios de las tarjetas: elegir oportunidades, confirmar líderes, corregir lecturas y revisar el pipeline.</p><p class="deliverable"><b>Entregable:</b> lista seleccionada, responsable y clasificación comercial.</p></article>
-<article class="phase"><span class="days">Días 6–15</span><h3>Validar con el cliente</h3><p>Líder de cada oportunidad: confirmar necesidad, stakeholder, urgencia y datos disponibles en una conversación de descubrimiento.</p><p class="deliverable"><b>Entregable:</b> evidencia de necesidad o motivo para cerrar / posponer la iniciativa.</p></article>
-<article class="phase"><span class="days">Días 16–25</span><h3>Definir la entrada</h3><p>Equipo de servicio: delimitar diagnóstico, POC o proyecto, esfuerzo comercial y criterios de éxito con el cliente.</p><p class="deliverable"><b>Entregable:</b> alcance preliminar y siguiente decisión acordada.</p></article>
-<article class="phase"><span class="days">Días 26–30</span><h3>Resolver el seguimiento</h3><p>Socio de cuenta y líder: decidir avance, pausa o cierre; actualizar el pipeline según los criterios internos de calificación.</p><p class="deliverable"><b>Entregable:</b> estado comercial, siguiente hito, responsable y fecha.</p></article>
-</div><div class="meeting"><h3>Revisión al día 30</h3><p>Reportar oportunidades seleccionadas, conversaciones realizadas, necesidades confirmadas y oportunidades calificadas. Mostrar también las iniciativas cerradas o pospuestas y la razón. El valor comercial se actualizará con evidencia de alcance y presupuesto.</p></div>
-</section><section><div class="decision"><h3>Decisión solicitada al socio</h3><p>Seleccionar de tres a cinco oportunidades, confirmar un socio líder para cada una y acordar el acceso al stakeholder del cliente.</p><ul><li>Definir en qué división y proceso comenzar cada conversación.</li><li>Confirmar el cruce con el pipeline vigente antes de registrar una iniciativa como nueva.</li><li>Autorizar un diagnóstico o POC cuando exista una necesidad y un alcance acordados.</li></ul></div></section>
+</style><link rel="stylesheet" href="navegacion.css"><style id="roadmap-view">/* Roadmap de 30 días */
+.roadmap-section{padding-top:32px}
+.roadmap-heading{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:32px}
+.roadmap-heading h2{font-size:clamp(25px,3vw,40px);letter-spacing:-.045em;margin:0 0 10px;line-height:1.1}
+.roadmap-heading p{margin:0;color:var(--muted);font-size:14px;max-width:650px}
+.roadmap-label{color:var(--yellow);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.12em;white-space:nowrap}
+.roadmap-scale{display:flex;justify-content:space-between;color:var(--muted);font-size:11px;letter-spacing:.04em;margin-bottom:12px}
+.roadmap-track{display:grid;grid-template-columns:5fr 10fr 10fr 5fr;gap:4px;list-style:none;margin:0;padding:0 0 70px}
+.roadmap-track li{position:relative;min-width:0}
+.roadmap-stage{display:flex;flex-direction:column;justify-content:space-between;min-height:116px;padding:18px 16px;background:#181810;border-top:3px solid var(--yellow);text-decoration:none;transition:background .15s}
+.roadmap-stage:hover{background:#252414}
+.roadmap-stage:focus-visible{outline:3px solid var(--yellow);outline-offset:3px}
+.roadmap-stage span{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#b8b6a2}
+.roadmap-stage strong{font-size:clamp(14px,1.5vw,21px);line-height:1.18;letter-spacing:-.025em;color:#f3f2eb;font-weight:750}
+.roadmap-milestone{position:absolute;top:132px;right:0;display:flex;flex-direction:column;align-items:flex-end;gap:8px;max-width:100%;text-align:right}
+.roadmap-milestone:before{content:"";width:9px;height:9px;background:var(--yellow);transform:rotate(45deg);margin-right:2px}
+.roadmap-milestone span{font-size:11px;color:#d5d3bd;line-height:1.35}
+.roadmap-milestone b{display:block;color:var(--yellow);font-size:10px;letter-spacing:.05em;margin-bottom:3px}
+.roadmap-details{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;list-style:none;padding:0;margin:18px 0 0}
+.roadmap-card{border:1px solid #303029;padding:24px 20px;background:#11110f;scroll-margin-top:115px}
+.roadmap-card:target{border-color:var(--yellow)}
+.roadmap-card .step-number{display:block;font-size:32px;line-height:1;font-weight:800;color:var(--yellow);letter-spacing:-.05em;margin-bottom:20px}
+.roadmap-card .step-days{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.roadmap-card h3{font-size:20px;line-height:1.15;letter-spacing:-.03em;margin:8px 0 22px}
+.roadmap-card dl{margin:0}
+.roadmap-card dt{font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:18px 0 7px}
+.roadmap-card dd{margin:0;font-size:14px;line-height:1.55;color:#e0ded3}
+.roadmap-card .deliverable-label{border-top:1px solid #38372d;padding-top:18px;color:var(--yellow)}
+.roadmap-finish{display:grid;grid-template-columns:130px 1fr;gap:28px;align-items:start;border:1px solid #514b22;background:#19180f;padding:28px;margin-top:26px}
+.roadmap-finish .finish-day{font-size:35px;font-weight:800;color:var(--yellow);letter-spacing:-.04em;line-height:1}
+.roadmap-finish .finish-day span{display:block;font-size:10px;letter-spacing:.1em;text-transform:uppercase;margin-top:9px;color:#b8b6a2}
+.roadmap-finish h3{font-size:21px;letter-spacing:-.025em;margin:0 0 10px}
+.roadmap-finish p{font-size:14px;color:#c7c5b7;margin:0;max-width:950px}
+@media(max-width:1050px){.roadmap-details{grid-template-columns:repeat(2,minmax(0,1fr))}.roadmap-stage{padding:16px 10px}.roadmap-stage strong{font-size:16px}}
+@media(max-width:760px){
+ .roadmap-heading{display:block}.roadmap-label{display:block;margin-top:16px}.roadmap-scale{display:none}
+ .roadmap-track{display:block;padding:0;margin:0 0 28px;border-left:1px solid #5e5724}
+ .roadmap-track li{padding:0 0 22px 22px}
+ .roadmap-track li:before{content:"";position:absolute;left:-5px;top:21px;width:9px;height:9px;background:var(--yellow);transform:rotate(45deg)}
+ .roadmap-stage{min-height:92px;padding:16px 18px;gap:13px}.roadmap-stage strong{font-size:21px}
+ .roadmap-milestone{position:static;align-items:flex-start;text-align:left;margin-top:10px}.roadmap-milestone:before{display:none}.roadmap-milestone b{display:inline;margin-right:8px}
+ .roadmap-details{grid-template-columns:1fr;gap:14px}.roadmap-card{padding:22px}.roadmap-card .step-number{float:right;margin:0 0 16px 15px}
+ .roadmap-finish{grid-template-columns:1fr;gap:20px;padding:24px}.roadmap-finish .finish-day span{display:inline;margin-left:12px}
+}
+@media print{
+ .roadmap-heading h2{font-size:20pt}.roadmap-label,.roadmap-stage span,.roadmap-scale{color:#555}
+ .roadmap-track{display:grid;grid-template-columns:5fr 10fr 10fr 5fr;border:0;padding:0 0 65px}.roadmap-track li{padding:0}.roadmap-track li:before{display:none}
+ .roadmap-stage{min-height:95px;background:#f5f5ed!important;border-color:#222;padding:12px}.roadmap-stage strong{font-size:12pt;color:#222}
+ .roadmap-milestone{position:absolute;top:110px;right:0;text-align:right;align-items:flex-end}.roadmap-milestone:before{display:block;background:#222}.roadmap-milestone span,.roadmap-milestone b{color:#333}
+ .roadmap-details{grid-template-columns:repeat(2,minmax(0,1fr))}.roadmap-card{background:#fff;border-color:#bbb;break-inside:avoid;scroll-margin-top:0}
+ .roadmap-card .step-number,.roadmap-card dd,.roadmap-card .deliverable-label{color:#222}.roadmap-card .step-number{float:none}
+ .roadmap-finish{grid-template-columns:100px 1fr;background:#f5f5ed;break-inside:avoid;border-color:#aaa}.roadmap-finish .finish-day,.roadmap-finish p,.roadmap-finish .finish-day span{color:#222}
+}
+</style></head><body><header class="topbar"><a class="brand" href="index.html">Radar de oportunidades, <span class="brand-account">Grupo México</span></a><nav aria-label="Navegación principal"><a href="index.html">Radar</a><a href="Oportunidades_Grupo_Mexico.html">Oportunidades</a><a href="Potencial_Comercial_Grupo_Mexico.html">Potencial comercial</a><a href="Plan_30_Dias_Grupo_Mexico.html" aria-current="page">Plan de 30 días</a><a class="download" href="Radar_Grupo_Mexico_Completo.xlsx" download>Descargar Excel ↓</a></nav></header>
+<header class="masthead"><div class="wrap"><h1>Roadmap comercial · 30 días</h1><p class="lead">Seleccionar, validar, definir y decidir: el recorrido de cada oportunidad hasta su siguiente paso comercial.</p></div></header>
+<main class="wrap"><a class="back" href="Oportunidades_Grupo_Mexico.html">← Volver a las oportunidades</a><section id="plan" class="roadmap-section" aria-labelledby="roadmap-title">
+  <div class="roadmap-heading"><div><h2 id="roadmap-title">De la selección al siguiente paso comercial</h2><p>Cuatro etapas durante 30 días. Cada hito deja un entregable para decidir cómo continuar.</p></div><span class="roadmap-label">Inicio: aprobación del socio</span></div>
+  <div class="roadmap-scale" aria-hidden="true"><span>Día 1 · Inicio</span><span>Día 30 · Revisión</span></div>
+  <ol class="roadmap-track" aria-label="Etapas e hitos del roadmap de 30 días">
+    <li><a class="roadmap-stage" href="#seleccionar"><span>Días 1–5</span><strong>Seleccionar</strong></a><div class="roadmap-milestone"><span><b>DÍA 5</b>Prioridades acordadas</span></div></li>
+    <li><a class="roadmap-stage" href="#validar"><span>Días 6–15</span><strong>Validar con el cliente</strong></a><div class="roadmap-milestone"><span><b>DÍA 15</b>Necesidad confirmada o iniciativa pospuesta</span></div></li>
+    <li><a class="roadmap-stage" href="#definir"><span>Días 16–25</span><strong>Definir la entrada</strong></a><div class="roadmap-milestone"><span><b>DÍA 25</b>Alcance preliminar definido</span></div></li>
+    <li><a class="roadmap-stage" href="#decidir"><span>Días 26–30</span><strong>Decidir</strong></a><div class="roadmap-milestone"><span><b>DÍA 30</b>Avanzar, pausar o cerrar</span></div></li>
+  </ol>
+  <ol class="roadmap-details" aria-label="Responsables, actividades y entregables por etapa">
+    <li class="roadmap-card" id="seleccionar"><span class="step-number" aria-hidden="true">01</span><span class="step-days">Días 1–5</span><h3>Seleccionar y depurar</h3><dl><dt>Responsables</dt><dd>Socio de cuenta y socios de las tarjetas.</dd><dt>Actividades</dt><dd>Elegir oportunidades, confirmar líderes, corregir lecturas y revisar el pipeline.</dd><dt class="deliverable-label">Entregable · Día 5</dt><dd>Lista de oportunidades seleccionadas, responsable y clasificación comercial.</dd></dl></li>
+    <li class="roadmap-card" id="validar"><span class="step-number" aria-hidden="true">02</span><span class="step-days">Días 6–15</span><h3>Validar con el cliente</h3><dl><dt>Responsable</dt><dd>Líder de cada oportunidad.</dd><dt>Actividades</dt><dd>Confirmar necesidad, stakeholder, urgencia y datos disponibles en una conversación de descubrimiento.</dd><dt class="deliverable-label">Entregable · Día 15</dt><dd>Evidencia de necesidad o motivo para cerrar o posponer la iniciativa.</dd></dl></li>
+    <li class="roadmap-card" id="definir"><span class="step-number" aria-hidden="true">03</span><span class="step-days">Días 16–25</span><h3>Definir la entrada</h3><dl><dt>Responsable</dt><dd>Equipo de servicio.</dd><dt>Actividades</dt><dd>Delimitar diagnóstico, POC o proyecto, esfuerzo comercial y criterios de éxito con el cliente.</dd><dt class="deliverable-label">Entregable · Día 25</dt><dd>Alcance preliminar y siguiente decisión acordada.</dd></dl></li>
+    <li class="roadmap-card" id="decidir"><span class="step-number" aria-hidden="true">04</span><span class="step-days">Días 26–30</span><h3>Resolver el seguimiento</h3><dl><dt>Responsables</dt><dd>Socio de cuenta y líder de la oportunidad.</dd><dt>Actividades</dt><dd>Decidir avance, pausa o cierre y actualizar el pipeline según los criterios internos de calificación.</dd><dt class="deliverable-label">Entregable · Día 30</dt><dd>Estado comercial, siguiente hito, responsable y fecha.</dd></dl></li>
+  </ol>
+  <div class="roadmap-finish"><div class="finish-day">Día 30<span>Revisión comercial</span></div><div><h3>Una decisión para cada oportunidad</h3><p>Reportar oportunidades seleccionadas, conversaciones realizadas, necesidades confirmadas y oportunidades calificadas. Registrar también las iniciativas cerradas o pospuestas y la razón. Actualizar el valor comercial con evidencia de alcance y presupuesto.</p></div></div>
+</section>
+<section><div class="decision"><h3>Decisión solicitada al socio</h3><p>Seleccionar de tres a cinco oportunidades, confirmar un socio líder para cada una y acordar el acceso al stakeholder del cliente.</p><ul><li>Definir en qué división y proceso comenzar cada conversación.</li><li>Confirmar el cruce con el pipeline vigente antes de registrar una iniciativa como nueva.</li><li>Autorizar un diagnóstico o POC cuando exista una necesidad y un alcance acordados.</li></ul></div></section>
 <footer class="foot"><p>Fuente: tarjetas de los socios y contexto del taller de Grupo México. [?] indica lectura por confirmar. El plan es una propuesta para discusión.</p><p><a href="Radar_Grupo_Mexico_Completo.xlsx" download>Descargar Excel completo</a><a href="Transcripcion_Grupo_Mexico.md">Transcripción completa</a><button class="print" onclick="window.print()">Imprimir / PDF</button></p></footer></main></body></html>
